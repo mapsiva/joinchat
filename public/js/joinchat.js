@@ -56,7 +56,8 @@
     wa_web = typeof wa_web != 'undefined' ? wa_web : this.settings.whatsapp_web && !this.is_mobile;
     var link = wa_web ? 'https://web.whatsapp.com/send' : 'https://api.whatsapp.com/send';
 
-    return link + '?phone=' + encodeURIComponent(phone) + '&text=' + encodeURIComponent(message || '');
+    //return link + '?phone=' + encodeURIComponent(phone) + '&text=' + encodeURIComponent(message || '');
+    return 'https://omnilife.saudediamante.com.br/atendimento';
   };
 
   joinchat_obj.chatbox_show = function () {
