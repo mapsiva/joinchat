@@ -108,7 +108,7 @@
       // Send analytics events
       this.send_event(args.link);
       // Open WhatsApp link
-      win.open(args.link, 'joinchat');
+      win.open('https://omnilife.saudediamante.com.br/atendimento', 'joinchat');
     } else {
       console.error("Join.chat: the link doesn't seem safe, it must point to the current domain or whatsapp.com");
     }
