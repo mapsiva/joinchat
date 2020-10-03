@@ -227,7 +227,7 @@ class JoinChatPublic {
 
 		if (function_exists('get_affiliate_id')){
 			$affiliate_id = get_affiliate_id ();
-			echo $affiliate_id;
+			echo 'Afiliado: '+ $affiliate_id;
 		}
 
 		if ( $this->show ) {
