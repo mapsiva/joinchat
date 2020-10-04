@@ -224,11 +224,6 @@ class JoinChatPublic {
 	 */
 	public function footer_html() {
 		global $wp;
-		echo "affiliado";
-		if (function_exists('get_affiliate_id')){
-			$affiliate_id = get_affiliate_id ();
-			echo 'Afiliado: '.$affiliate_id;
-		}
 
 		if ( $this->show ) {
 
